@@ -6,3 +6,15 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+.our-packege-card{
+    border-radius: 25px;
+    
+}
+.our-packege-card:hover{
+    color: white;
+    background-color: rgba(58, 44, 42, 0.589);
+    transform: translate(0px ,-30px);
+    transition: all .5s;
+    
+    box-shadow: 0 20px 130px -5px rgb(61, 72, 131) !important;
+}
