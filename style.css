@@ -23,6 +23,9 @@ body{
     
     box-shadow: 0 20px 30px -10px rgba(23, 165, 201, 0.336) !important;
 }
+.for-toast{
+    top: 700px;
+}
 @media (max-width: 576px) {
     .h-sm-50{
         height: 400px;
@@ -32,7 +35,7 @@ body{
     }
     .for-toast{
         position: relative;
-        top: 500px;
+        top: 400px;
         left: 20px;
     }
     
