@@ -17,9 +17,23 @@ body{
 }
 .our-packege-card:hover{
     color: white;
-    background-color: rgb(216, 27, 27);
+    background-color: rgb(6 5 7);
     transform: translate(0px ,-30px);
     transition: all .5s;
     
     box-shadow: 0 20px 30px -10px rgba(23, 165, 201, 0.336) !important;
+}
+@media (max-width: 576px) {
+    .h-sm-50{
+        height: 400px;
+    }
+    .w-lg-50{
+        width: 50% !important;
+    }
+    .for-toast{
+        position: relative;
+        top: 500px;
+        left: 20px;
+    }
+    
 }
