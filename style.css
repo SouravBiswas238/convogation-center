@@ -10,11 +10,16 @@ body{
     border-radius: 25px;
     
 }
+.our-packege-card span{
+    top: -10px !important;
+    right: 20px !important;
+    
+}
 .our-packege-card:hover{
     color: white;
-    background-color: rgba(58, 44, 42, 0.589);
+    background-color: rgb(216, 27, 27);
     transform: translate(0px ,-30px);
     transition: all .5s;
     
-    box-shadow: 0 20px 130px -5px rgb(61, 72, 131) !important;
+    box-shadow: 0 20px 30px -10px rgba(23, 165, 201, 0.336) !important;
 }
